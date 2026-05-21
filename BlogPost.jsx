@@ -1,5 +1,5 @@
 import { useParams, Link, Navigate } from 'react-router-dom'
-import { posts } from '../data/posts'
+import { posts } from './posts'
 import './BlogPost.css'
 
 function renderBody(text) {

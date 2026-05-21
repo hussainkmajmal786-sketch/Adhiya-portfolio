@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
-import Portfolio from './pages/Portfolio'
-import Internship from './pages/Internship'
-import Blog from './pages/Blog'
-import BlogPost from './pages/BlogPost'
+import Navbar from './Navbar'
+import Footer from './Footer'
+import Portfolio from './Portfolio'
+import Internship from './Internship'
+import Blog from './Blog'
+import BlogPost from './BlogPost'
 
 function AnimatedRoutes() {
   const location = useLocation()

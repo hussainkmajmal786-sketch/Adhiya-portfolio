@@ -33,7 +33,7 @@ Product thinking isn't a tech skill. It's a discipline of honest problem-solving
   {
     slug: 'pm-frameworks-that-actually-work',
     title: 'PM Frameworks That Actually Work (And 3 That Are Overrated)',
-    subtitle: 'A practitioner's honest review of popular product management tools.',
+    subtitle: "A practitioner's honest review of popular product management tools.",
     date: 'March 15, 2025',
     readTime: '8 min read',
     category: 'Product Strategy',

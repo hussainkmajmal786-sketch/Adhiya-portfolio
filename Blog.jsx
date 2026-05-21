@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { posts } from '../data/posts'
+import { posts } from './posts'
 import './Blog.css'
 
 const categories = ['All', ...new Set(posts.map(p => p.category))]
