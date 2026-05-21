@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="container footer-inner">
         <div className="footer-left">
-          <span className="footer-name">Your Name</span>
+          <span className="footer-name">Adhiya Mujeeb</span>
           <p>Building thoughtful products &amp; experiences.</p>
         </div>
         <div className="footer-links">

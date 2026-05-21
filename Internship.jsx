@@ -4,7 +4,7 @@ const timeline = [
   {
     month: 'Jan 2025',
     title: 'Onboarding & Baseline Study',
-    desc: 'Joined PM VIKAS as a field intern. Conducted baseline interviews with artisan families across 2 clusters in Tamil Nadu to understand income patterns, skill gaps, and aspirations.',
+    desc: 'Joined PM VIKAS as a field intern. Conducted baseline interviews with artisan families across 2 clusters in Kerala to understand income patterns, skill gaps, and aspirations.',
     outcomes: ['40+ artisan interviews', 'Cluster mapping completed', 'Gap analysis report'],
     accent: 'gold',
   },
@@ -57,10 +57,10 @@ export default function Internship() {
       <section className="intern-hero">
         <div className="intern-hero-bg" />
         <div className="container intern-hero-inner">
-          <div className="section-label" style={{marginBottom:'1.5rem'}}>Current Internship · 2025</div>
+          <div className="section-label" style={{marginBottom:'1.5rem'}}>Upcoming Internship · 2026</div>
           <div className="intern-badge">
             <span className="badge-dot" />
-            <span>Active · PM VIKAS, Govt. of India</span>
+            <span>Starting April 1, 2026 · PM VIKAS, Govt. of India</span>
           </div>
           <h1 className="intern-title">PM VIKAS<br /><em>Internship</em></h1>
           <p className="intern-subtitle">
@@ -72,7 +72,7 @@ export default function Internship() {
             <span className="tag gold">Skill Development</span>
             <span className="tag sage">Rural India</span>
             <span className="tag rust">Government Scheme</span>
-            <span className="tag">Tamil Nadu</span>
+            <span className="tag">Kerala</span>
           </div>
         </div>
       </section>
@@ -117,11 +117,11 @@ export default function Internship() {
             </div>
             <div className="aside-card">
               <h4>Duration</h4>
-              <p>January 2025 – Present (Ongoing)</p>
+              <p>April 1, 2026 – Currently pursuing</p>
             </div>
             <div className="aside-card">
               <h4>Location</h4>
-              <p>Tamil Nadu (Multi-district: Chennai, Vellore, Kanchipuram)</p>
+              <p>Kerala (Multi-district: Kottayam, Idukki, Ernakulam)</p>
             </div>
           </div>
         </div>

@@ -7,7 +7,7 @@ export const posts = [
     readTime: '6 min read',
     category: 'Product Management',
     accent: 'gold',
-    excerpt: 'Three months in the field across Tamil Nadu changed how I think about users, assumptions, and what "good product" actually means when the stakes are livelihoods — not DAU.',
+    excerpt: 'Three months in the field across Kerala changed how I think about users, assumptions, and what "good product" actually means when the stakes are livelihoods — not DAU.',
     body: `
 When I started my PM VIKAS internship, I arrived with a product manager's toolkit: frameworks, personas, sprint cycles. Three months and 300 artisan interactions later, I threw most of it out.
 
@@ -81,7 +81,7 @@ The best framework is the one you'll actually use consistently. Start simple.
     body: `
 **Day 1 — Monday**
 
-Arrived in Kanchipuram at 7am. The silk weaving clusters start early. By the time I reached the first household, three adults were already at the loom. The PM VIKAS identity card was new to them. One weaver had applied online six months ago and heard nothing since. I noted it down.
+Arrived in Kottayam at 7am. The silk weaving clusters start early. By the time I reached the first household, three adults were already at the loom. The PM VIKAS identity card was new to them. One weaver had applied online six months ago and heard nothing since. I noted it down.
 
 **Day 2 — Tuesday**
 
@@ -93,7 +93,7 @@ Site visit to a government Common Service Centre (CSC). Only one computer, broke
 
 **Day 4 — Thursday**
 
-Breakthrough. A women's self-help group in the cluster has been running their own informal version of market linkage for 11 years. They know buyers in Chennai, have a WhatsApp broadcast list, handle payments in cash. We can learn from them — not the other way around.
+Breakthrough. A women's self-help group in the cluster has been running their own informal version of market linkage for 11 years. They know buyers in Kochi, have a WhatsApp broadcast list, handle payments in cash. We can learn from them — not the other way around.
 
 **Day 5 — Friday**
 

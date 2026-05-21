@@ -62,9 +62,9 @@ export default function BlogPost() {
             <div className="sidebar-section">
               <div className="section-label" style={{marginBottom:'0.75rem'}}>Written by</div>
               <div className="author-card">
-                <div className="author-avatar">YN</div>
+                <div className="author-avatar">AM</div>
                 <div>
-                  <div className="author-name">Your Name</div>
+                  <div className="author-name">Adhiya Mujeeb</div>
                   <div className="author-role">PM · Researcher · Intern @ PM VIKAS</div>
                 </div>
               </div>

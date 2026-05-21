@@ -32,7 +32,7 @@ const projects = [
   {
     id: 4,
     title: 'Market Research: Artisan Economy',
-    desc: 'Qualitative + quantitative study on income patterns of traditional craft workers in rural Tamil Nadu.',
+    desc: 'Qualitative + quantitative study on income patterns of traditional craft workers in rural Kerala.',
     tags: ['Research', 'Economics', 'Fieldwork'],
     year: '2025',
     accent: 'gold',
@@ -69,9 +69,9 @@ export default function Portfolio() {
             <Link to="/blog" className="btn btn-ghost">Read My Writing →</Link>
           </div>
           <div className="hero-meta">
-            <span className="meta-item"><span className="meta-dot" />Chennai, India</span>
+            <span className="meta-item"><span className="meta-dot" />Kottayam, India</span>
             <span className="meta-item"><span className="meta-dot" />Open to Opportunities</span>
-            <span className="meta-item"><span className="meta-dot" />PM VIKAS Intern 2025</span>
+            <span className="meta-item"><span className="meta-dot" />PM VIKAS Intern 2026</span>
           </div>
         </div>
         <div className="hero-scroll-hint">
@@ -87,7 +87,7 @@ export default function Portfolio() {
             <div className="section-label" style={{marginBottom:'1.2rem'}}>About Me</div>
             <h2 className="section-heading">I build at the edge of <em>technology & community.</em></h2>
             <p>
-              Currently interning with PM VIKAS — a Government of India initiative — where I work on
+              Starting an internship with PM VIKAS — a Government of India initiative on April 1, 2026 — where I will work on
               skill development programs for traditional artisans. I bring a product mindset to everything:
               deeply empathizing with users, structuring problems, and shipping solutions that stick.
             </p>
@@ -161,7 +161,7 @@ export default function Portfolio() {
         <div className="container cta-inner">
           <div>
             <h2 className="cta-heading">Let's build something meaningful.</h2>
-            <p className="cta-sub">Open to product, research, and strategy roles. Based in Chennai.</p>
+            <p className="cta-sub">Open to product, research, and strategy roles. Based in Kottayam, India.</p>
           </div>
           <a href="mailto:your@email.com" className="btn btn-primary btn-large">Get in Touch →</a>
         </div>

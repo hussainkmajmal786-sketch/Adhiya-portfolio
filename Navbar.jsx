@@ -19,8 +19,8 @@ export default function Navbar() {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="nav-inner container">
         <NavLink to="/" className="nav-logo">
-          <span className="logo-initials">YN</span>
-          <span className="logo-name">Your Name</span>
+          <span className="logo-initials">AM</span>
+          <span className="logo-name">Adhiya Mujeeb</span>
         </NavLink>
 
         <button className={`hamburger ${menuOpen ? 'open' : ''}`} onClick={() => setMenuOpen(!menuOpen)} aria-label="Toggle menu">
