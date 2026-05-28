@@ -21,7 +21,7 @@ const io = new IntersectionObserver((entries) => {
       io.unobserve(e.target);
     }
   });
-}, { threshold: 0.12 });
+}, { threshold: 0.05, rootMargin: "0px 0px -50px 0px" });
 
 document.querySelectorAll('.reveal').forEach((el, i) => {
   el.style.transitionDelay = (i % 3 * 0.08) + 's';
