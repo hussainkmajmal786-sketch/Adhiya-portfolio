@@ -156,6 +156,98 @@ export default function Portfolio() {
         </div>
       </section>
 
+      {/* Now / Current focus */}
+      <section className="now-section">
+        <div className="container now-inner">
+          <div className="now-head">
+            <div className="section-label">Currently</div>
+            <h2 className="section-heading">What I'm <em>working on now.</em></h2>
+            <p className="now-sub">
+              A snapshot of where my attention sits this season — updated as the year unfolds.
+            </p>
+          </div>
+          <div className="now-grid">
+            <div className="now-card">
+              <span className="now-icon">⚡</span>
+              <div className="now-label">Building</div>
+              <div className="now-text">
+                IoT prototypes around the <strong>8085 microprocessor</strong> and ESP32 sensor nodes
+                for the PM VIKAS programme at IIIT Kottayam.
+              </div>
+            </div>
+            <div className="now-card">
+              <span className="now-icon">📚</span>
+              <div className="now-label">Learning</div>
+              <div className="now-text">
+                Sequential logic, finite-state machines, and the bridge between digital design and
+                real-world embedded systems.
+              </div>
+            </div>
+            <div className="now-card">
+              <span className="now-icon">✏️</span>
+              <div className="now-label">Writing</div>
+              <div className="now-text">
+                A <Link to="/blog">running journal</Link> on product thinking, fieldwork, and lessons
+                from working with traditional artisans.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Contact / Connect */}
+      <section className="connect-section" id="contact">
+        <div className="container">
+          <div className="connect-grid">
+            <div className="connect-left">
+              <div className="section-label">Get in touch</div>
+              <h2 className="connect-heading">
+                Let's build something <em>meaningful.</em>
+              </h2>
+              <p className="connect-sub">
+                Open to product, research, and strategy conversations. The best ideas usually start
+                with a short message — say hi, share a problem, or send a half-formed idea.
+              </p>
+              <div className="connect-meta">
+                <span className="meta-item"><span className="meta-dot" /> Kottayam, Kerala · IST</span>
+                <span className="meta-item"><span className="meta-dot" /> Responds within ~24h</span>
+              </div>
+            </div>
+
+            <ul className="connect-channels">
+              <li>
+                <a href="mailto:hussainkmajmal890@gmail.com" className="channel-card">
+                  <span className="channel-label">Email</span>
+                  <span className="channel-value">hussainkmajmal890@gmail.com</span>
+                  <span className="channel-arrow">→</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/hussainkmajmal786-sketch" target="_blank" rel="noreferrer" className="channel-card">
+                  <span className="channel-label">GitHub</span>
+                  <span className="channel-value">@hussainkmajmal786-sketch</span>
+                  <span className="channel-arrow">↗</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="channel-card">
+                  <span className="channel-label">LinkedIn</span>
+                  <span className="channel-value">Connect &amp; collaborate</span>
+                  <span className="channel-arrow">↗</span>
+                </a>
+              </li>
+              <li>
+                <Link to="/internship" className="channel-card">
+                  <span className="channel-label">PM VIKAS</span>
+                  <span className="channel-value">Read the class journal</span>
+                  <span className="channel-arrow">→</span>
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
       {/* CTA strip */}
       <section className="cta-strip">
         <div className="container cta-inner">
@@ -163,7 +255,7 @@ export default function Portfolio() {
             <h2 className="cta-heading">Let's build something meaningful.</h2>
             <p className="cta-sub">Open to product, research, and strategy roles. Based in Kottayam, India.</p>
           </div>
-          <a href="mailto:your@email.com" className="btn btn-primary btn-large">Get in Touch →</a>
+          <a href="mailto:hussainkmajmal890@gmail.com" className="btn btn-primary btn-large">Get in Touch →</a>
         </div>
       </section>
     </main>
