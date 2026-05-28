@@ -1,50 +1,50 @@
 import { Link } from 'react-router-dom'
 import './Portfolio.css'
 
-const projects = [
+const featuredProjects = [
   {
     id: 1,
-    title: 'Product Strategy Dashboard',
-    desc: 'A data-driven dashboard for tracking OKRs and product metrics across teams. Built for cross-functional alignment.',
-    tags: ['Product', 'Analytics', 'React'],
-    year: '2024',
-    accent: 'gold',
-    link: '#',
+    title: '8085 Temperature Monitor',
+    desc: 'Interfacing an 8085 with ADC0808 through an 8255 PPI — SOC/EOC handshaking to read an 8-bit digital temperature value. A classic microprocessor instrumentation build from the lab.',
+    tags: ['8085', 'ADC0808', 'Assembly'],
+    year: '2026',
+    accent: 'rust',
+    link: '/projects',
   },
   {
     id: 2,
-    title: 'Community Skill-Building App',
-    desc: 'Mobile-first platform connecting rural artisans with mentors and markets. Piloted in 3 districts.',
-    tags: ['UX Design', 'Mobile', 'Social Impact'],
-    year: '2024',
+    title: 'Smart Home + Cybersecurity',
+    desc: 'A future-internet concept for elderly grandparents — smart-home automation linked to live traffic and a cyber-wing SOS layer for emergencies and trusted delivery access.',
+    tags: ['IoT', 'Smart City', 'Concept'],
+    year: '2026',
     accent: 'sage',
-    link: '#',
+    link: '/projects',
   },
   {
     id: 3,
-    title: 'PM VIKAS Monitoring Tool',
-    desc: 'Internal reporting tool to track trainee progress, sessions, and outcomes across PM VIKAS batches.',
-    tags: ['PM VIKAS', 'Data', 'Government'],
-    year: '2025',
-    accent: 'rust',
-    link: '/internship',
+    title: 'MCU ↔ MCU + LCD Link',
+    desc: 'Two-MCU embedded serial link: a transmitter continuously sends a character while a receiver decodes it and shows the result on an LCD — hands-on intro to embedded serial comm.',
+    tags: ['8051', 'Serial', 'Embedded C'],
+    year: '2026',
+    accent: 'gold',
+    link: '/projects',
   },
   {
     id: 4,
-    title: 'Market Research: Artisan Economy',
-    desc: 'Qualitative + quantitative study on income patterns of traditional craft workers in rural Kerala.',
-    tags: ['Research', 'Economics', 'Fieldwork'],
-    year: '2025',
+    title: 'PM VIKAS Class Journal',
+    desc: 'A live, day-by-day journal of every electronics and IoT class — formulas, exercises, callouts, and concept maps from the PM VIKAS programme at IIIT Kottayam.',
+    tags: ['Journal', 'PM VIKAS', 'IIIT-K'],
+    year: '2026',
     accent: 'gold',
-    link: '#',
+    link: '/internship',
   },
 ]
 
 const skills = [
-  { category: 'Product', items: ['Product Strategy', 'Roadmapping', 'User Research', 'Agile / Scrum'] },
-  { category: 'Technical', items: ['React', 'Python', 'SQL', 'Figma'] },
-  { category: 'Soft Skills', items: ['Stakeholder Management', 'Public Speaking', 'Cross-team Collaboration'] },
-  { category: 'Domain', items: ['Social Impact', 'Rural Development', 'EdTech', 'Govt Schemes'] },
+  { category: 'Electronics', items: ['Network Theory', 'Analog & Digital Circuits', 'Rectifiers & Filters', 'PCB / Breadboard'] },
+  { category: 'Digital & MCU', items: ['Boolean Algebra', 'K-Maps', '8085 / 8051', 'Sequential Logic'] },
+  { category: 'IoT & Comms', items: ['M2M Systems', 'IEEE 802.3 / 802.11', 'Sensor Interfacing', 'IoT Architecture'] },
+  { category: 'Tools', items: ['VS Code', 'Circuit Simulators', 'Multimeter / DSO', 'Embedded C'] },
 ]
 
 export default function Portfolio() {
@@ -65,13 +65,28 @@ export default function Portfolio() {
             especially at the intersection of technology and public good.
           </p>
           <div className="hero-cta-row">
-            <a href="#projects" className="btn btn-primary">View Projects</a>
-            <Link to="/blog" className="btn btn-ghost">Read My Writing →</Link>
+            <Link to="/projects" className="btn btn-primary">View Projects</Link>
+            <Link to="/works" className="btn btn-ghost">Explore Works →</Link>
+          </div>
+          <div className="hero-now">
+            <div className="hero-now-label">Currently</div>
+            <ul className="hero-now-list">
+              <li>
+                <span className="now-pip" />
+                Studying <strong>Electronics &amp; Communication</strong> at{' '}
+                <strong>College of Engineering Kidangoor</strong>
+              </li>
+              <li>
+                <span className="now-pip sage" />
+                <strong>IoT Assistant Intern</strong> @ IIIT Kottayam — part of the{' '}
+                <strong>PM VIKAS</strong> programme
+              </li>
+            </ul>
           </div>
           <div className="hero-meta">
-            <span className="meta-item"><span className="meta-dot" />Kottayam, India</span>
-            <span className="meta-item"><span className="meta-dot" />Open to Opportunities</span>
-            <span className="meta-item"><span className="meta-dot" />PM VIKAS Intern 2026</span>
+            <span className="meta-item"><span className="meta-dot" />Kottayam, Kerala · IST</span>
+            <span className="meta-item"><span className="meta-dot" />Open to opportunities</span>
+            <span className="meta-item"><span className="meta-dot" />2026 cohort</span>
           </div>
         </div>
         <div className="hero-scroll-hint">
@@ -85,23 +100,24 @@ export default function Portfolio() {
         <div className="container about-strip-inner">
           <div className="about-text">
             <div className="section-label" style={{marginBottom:'1.2rem'}}>About Me</div>
-            <h2 className="section-heading">I build at the edge of <em>technology & community.</em></h2>
+            <h2 className="section-heading">Learning at the edge of <em>electronics &amp; the internet.</em></h2>
             <p>
-              Starting an internship with PM VIKAS — a Government of India initiative on April 1, 2026 — where I will work on
-              skill development programs for traditional artisans. I bring a product mindset to everything:
-              deeply empathizing with users, structuring problems, and shipping solutions that stick.
+              I'm an Electronics &amp; Communication undergraduate at <strong>College of Engineering
+              Kidangoor</strong>, currently interning as an <strong>IoT Assistant</strong> at IIIT Kottayam
+              under the Government of India's <strong>PM VIKAS</strong> programme. My days move between
+              network theory, breadboards, and connected systems.
             </p>
             <p>
-              When I'm not in the field, I'm writing about product management, urban economics, and the
-              future of livelihoods.
+              I document everything I learn — from resistor colour codes and KCL/KVL to the 8085, K-maps,
+              and IoT architecture — and turn those notes into small, tangible builds.
             </p>
             <div className="about-links">
-              <a href="/resume.pdf" className="btn btn-sm" target="_blank" rel="noreferrer">Download Resume ↓</a>
-              <Link to="/internship" className="btn btn-sm btn-outline">PM VIKAS Work →</Link>
+              <Link to="/works" className="btn btn-sm">Explore Works →</Link>
+              <Link to="/internship" className="btn btn-sm btn-outline">PM VIKAS Journal →</Link>
             </div>
           </div>
           <div className="about-stats">
-            {[['4+','Projects Shipped'],['300+','Artisans Reached'],['2','Published Articles'],['1','Ongoing Internship']].map(([n,l])=>(
+            {[['9','Class Sessions Logged'],['4','Projects in Flight'],['3','Faculty Mentors'],['1','IoT Internship']].map(([n,l])=>(
               <div className="stat-card" key={l}>
                 <span className="stat-num">{n}</span>
                 <span className="stat-label">{l}</span>
@@ -119,7 +135,7 @@ export default function Portfolio() {
             <h2 className="section-heading">Projects &amp; Case Studies</h2>
           </div>
           <div className="projects-grid">
-            {projects.map((p, i) => (
+            {featuredProjects.map((p, i) => (
               <Link to={p.link} key={p.id} className={`project-card accent-${p.accent}`} style={{animationDelay:`${i*0.1}s`}}>
                 <div className="project-card-top">
                   <span className="project-year tag">{p.year}</span>
@@ -184,11 +200,11 @@ export default function Portfolio() {
               </div>
             </div>
             <div className="now-card">
-              <span className="now-icon">✏️</span>
-              <div className="now-label">Writing</div>
+              <span className="now-icon">🎓</span>
+              <div className="now-label">Studying</div>
               <div className="now-text">
-                A <Link to="/blog">running journal</Link> on product thinking, fieldwork, and lessons
-                from working with traditional artisans.
+                <strong>Electronics &amp; Communication</strong> at College of Engineering Kidangoor
+                — bridging coursework with the PM VIKAS IoT lab.
               </div>
             </div>
           </div>

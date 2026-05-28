@@ -28,11 +28,12 @@ export default function Navbar() {
         </button>
 
         <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
-          <li><NavLink to="/" end className={({isActive}) => isActive ? 'active' : ''}>Portfolio</NavLink></li>
+          <li><NavLink to="/" end className={({isActive}) => isActive ? 'active' : ''}>Home</NavLink></li>
+          <li><NavLink to="/projects" className={({isActive}) => isActive ? 'active' : ''}>Projects</NavLink></li>
+          <li><NavLink to="/works" className={({isActive}) => isActive ? 'active' : ''}>Works</NavLink></li>
           <li><NavLink to="/internship" className={({isActive}) => isActive ? 'active' : ''}>PM VIKAS</NavLink></li>
-          <li><NavLink to="/blog" className={({isActive}) => isActive ? 'active' : ''}>Blog</NavLink></li>
           <li>
-            <a href="mailto:your@email.com" className="nav-cta">Hire Me</a>
+            <a href="mailto:hussainkmajmal890@gmail.com" className="nav-cta">Hire Me</a>
           </li>
         </ul>
       </div>
